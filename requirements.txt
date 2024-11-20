@@ -1,0 +1,5 @@
+pandas
+httpx
+google-cloud-bigquery
+google-cloud-logging
+pyarrow
