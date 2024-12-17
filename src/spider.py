@@ -27,7 +27,7 @@ def get_category(name):
         alimentos_mapping = json.load(file)
     for key in alimentos_mapping.keys():
         if key.lower() in name.lower():
-            return alimentos_mapping[key]['category']
+            return alimentos_mapping[key]
     return None
 
 def extract_weight(text):
