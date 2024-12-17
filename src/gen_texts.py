@@ -25,6 +25,7 @@ def cb_daily_text(df: pd.DataFrame):
     today_date = cb_prices['date'].iloc[-1].date().strftime('%d/%m/%Y')
     variation_pct = cb_prices['daily_variation_percent'].iloc[-1]
     tweet_text = (
-        f'🧺💵 Variação do preço da cesta básica no dia de hoje, {today_date}, em relação à média da semana passada:\n
-        {variation_pct:.2f}%'
+        f'🧺💵 Variação do preço da cesta básica no dia de hoje, {today_date}, em relação à média da semana passada:\n{variation_pct:.2f}%'
     )
+    
+    return tweet_text
