@@ -33,5 +33,4 @@ jobs:
           --memory=512Mi \
           --cpu=333m \
           --max-instances=5 \
-          --all-traffic-on-latest-revision \
           --timeout=60s
