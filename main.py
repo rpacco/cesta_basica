@@ -1,4 +1,5 @@
 from src.spider import wrangle_data
+from src.gen_texts import cb_daily_text
 from utils.bq_updater import save_to_bigquery
 import httpx
 import os

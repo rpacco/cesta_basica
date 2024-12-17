@@ -1,5 +1,7 @@
 pandas
 httpx
 google-cloud-bigquery
+google-cloud-bigquery-storage
 google-cloud-logging
 pyarrow
+db-dtypes
